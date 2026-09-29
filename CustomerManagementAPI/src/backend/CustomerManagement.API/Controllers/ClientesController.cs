@@ -15,6 +15,19 @@ public class clientesController : ControllerBase
         return Ok(clientes);
     }
 
+    [HttpGet("{id}")] //GET : api/clientes/{id}
+    public IActionResult BuscarPorId(int id)
+    {
+        var cliente = clientes.FirstOrDefault(cliente => cliente.Id == id);
+
+        if (cliente == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(cliente);
+    }
+
     [HttpPost] //POST: api/clientes
     public IActionResult Criar(Cliente cliente)
     {
@@ -25,5 +38,38 @@ public class clientesController : ControllerBase
         clientes.Add(cliente);
 
         return Ok(cliente);
+    }
+
+    [HttpPut("{id}")] //PUT : api/clientes 
+    public IActionResult Atualizar(int id, Cliente dados)
+    {
+        var cliente = clientes.FirstOrDefault(clientes => clientes.Id == id);
+
+        if (cliente == null)
+        {
+            return NotFound();
+        }
+
+        cliente.Nome = dados.Nome;
+        cliente.Email = dados.Email;
+        cliente.Telefone = dados.Telefone;
+
+        return Ok(cliente);
+
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Excluir(int id)
+    {
+        var cliente = clientes.FirstOrDefault(c => c.Id == id);
+
+        if (cliente == null)
+        {
+            return NotFound();
+        }
+
+        clientes.Remove(cliente);
+
+        return NoContent();
     }
 }

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E987EE7-B7DF-4719-9696-3AB3CE1969AC}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|d:\\users\\wende\\workspace\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E987EE7-B7DF-4719-9696-3AB3CE1969AC}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|d:\\users\\wende\\workspace\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E987EE7-B7DF-4719-9696-3AB3CE1969AC}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|d:\\users\\wende\\workspace\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E987EE7-B7DF-4719-9696-3AB3CE1969AC}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E987EE7-B7DF-4719-9696-3AB3CE1969AC}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|d:\\users\\wende\\workspace\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E987EE7-B7DF-4719-9696-3AB3CE1969AC}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|d:\\users\\wende\\workspace\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "ToolTip": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T02:39:59.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Program.cs",
@@ -47,8 +30,7 @@
               "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T02:27:52.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T02:27:52.156Z"
             },
             {
               "$type": "Document",
@@ -58,7 +40,7 @@
               "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "ToolTip": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T02:18:35.424Z",
               "EditorCaption": ""

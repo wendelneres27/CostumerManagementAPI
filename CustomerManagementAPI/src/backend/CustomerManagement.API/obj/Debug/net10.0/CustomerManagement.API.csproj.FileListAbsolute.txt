@@ -35,3 +35,4 @@ D:\Users\wende\Workspace\Github\CostumerManagementAPI\CustomerManagementAPI\src\
 D:\Users\wende\Workspace\Github\CostumerManagementAPI\CustomerManagementAPI\src\backend\CustomerManagement.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Users\wende\Workspace\Github\CostumerManagementAPI\CustomerManagementAPI\src\backend\CustomerManagement.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Users\wende\Workspace\Github\CostumerManagementAPI\CustomerManagementAPI\src\backend\CustomerManagement.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\wende\Workspace\Github\CostumerManagementAPI\CustomerManagementAPI\src\backend\CustomerManagement.API\obj\Debug\net10.0\CustomerManagement.API.sourcelink.json
