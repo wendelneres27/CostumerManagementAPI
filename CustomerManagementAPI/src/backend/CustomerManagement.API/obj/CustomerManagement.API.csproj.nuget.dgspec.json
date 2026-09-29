@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj": {}
+    "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj": {}
   },
   "projects": {
-    "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj": {
+    "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj",
         "projectName": "CustomerManagement.API",
-        "projectPath": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj",
+        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\obj\\",
+        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
@@ -55,6 +55,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -80,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

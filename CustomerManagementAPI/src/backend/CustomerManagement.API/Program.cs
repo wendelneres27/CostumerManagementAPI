@@ -1,4 +1,14 @@
+using CustomerManagement.API.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Configuração do Entity Framework Core com SQL Server
+builder.Services.AddDbContext<AppDbContext>(OptionsBuilderConfigurationExtensions =>
+    OptionsBuilderConfigurationExtensions.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    )
+);
 
 // Add services to the container.
 
