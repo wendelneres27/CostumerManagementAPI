@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\migrations\\20260929175106_clientecidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\migrations\\20260929175106_clientecidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\migrations\\20260929134218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\migrations\\20260929134218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T17:54:22.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20260929134218_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Migrations\\20260929134218_InitialCreate.cs",
               "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Migrations\\20260929134218_InitialCreate.cs",
               "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Migrations\\20260929134218_InitialCreate.cs",
               "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Migrations\\20260929134218_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T13:42:18.398Z",
+              "WhenOpened": "2026-09-29T17:52:37.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260929175106_ClienteCidade.cs",
+              "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Migrations\\20260929175106_ClienteCidade.cs",
+              "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Migrations\\20260929175106_ClienteCidade.cs",
+              "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Migrations\\20260929175106_ClienteCidade.cs",
+              "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Migrations\\20260929175106_ClienteCidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T17:51:06.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T12:07:14.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAhwCwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T02:18:35.424Z",
               "EditorCaption": ""

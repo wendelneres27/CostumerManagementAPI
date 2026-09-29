@@ -87,6 +87,10 @@
             "type": "string",
             "nullable": true
           },
+          "cidade": {
+            "type": "string",
+            "nullable": true
+          },
           "telefone": {
             "type": "string",
             "nullable": true
