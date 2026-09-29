@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CustomerManagement.API.Controllers.clientesController",
+    "Method": "List",
+    "RelativePath": "api/clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CustomerManagement.API.Controllers.clientesController",
+    "Method": "Criar",
+    "RelativePath": "api/clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "CustomerManagement.API.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
