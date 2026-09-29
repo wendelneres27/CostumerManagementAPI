@@ -91,6 +91,10 @@
             "type": "string",
             "nullable": true
           },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
           "telefone": {
             "type": "string",
             "nullable": true

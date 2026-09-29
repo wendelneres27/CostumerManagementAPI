@@ -11,7 +11,14 @@ namespace CustomerManagement.API.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "cidade",
+                name: "Cidade",
+                table: "Clientes",
+                type: "nvarchar(max)",
+                nullable: false,
+                defaultValue: "");
+
+            migrationBuilder.AddColumn<string>(
+                name: "Estado",
                 table: "Clientes",
                 type: "nvarchar(max)",
                 nullable: false,
@@ -22,7 +29,11 @@ namespace CustomerManagement.API.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "cidade",
+                name: "Cidade",
+                table: "Clientes");
+
+            migrationBuilder.DropColumn(
+                name: "Estado",
                 table: "Clientes");
         }
     }
