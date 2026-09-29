@@ -35,19 +35,24 @@ public class clientesController : ControllerBase
 
         return Ok(cliente);
     }
-
+    
     [HttpPost] //POST: api/clientes
     public IActionResult Criar(Cliente cliente)
     {
+        /*
         cliente.Id = clientes.Count + 1;
 
+        clientes.Add(cliente);
+        */
         cliente.DataCadastro = DateTime.Now;
 
-        clientes.Add(cliente);
+        _context.Clientes.Add(cliente); //Quero adicionar este cliente à tabela Clientes
+
+        _context.SaveChanges(); //Agora execute essa alteração no banco
 
         return Ok(cliente);
     }
-
+    /*
     [HttpPut("{id}")] //PUT : api/clientes 
     public IActionResult Atualizar(int id, Cliente dados)
     {
@@ -79,5 +84,5 @@ public class clientesController : ControllerBase
         clientes.Remove(cliente);
 
         return NoContent();
-    }
+    }*/
 }
