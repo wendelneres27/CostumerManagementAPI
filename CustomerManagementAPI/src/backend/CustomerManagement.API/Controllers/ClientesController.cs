@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CustomerManagement.API.Models;
+using CustomerManagement.API.Data;
 
 namespace CustomerManagement.API.Controllers;
 
@@ -7,18 +8,25 @@ namespace CustomerManagement.API.Controllers;
 [Route("api/[controller]")]
 public class clientesController : ControllerBase
 {
-    private static List<Cliente> clientes = new List<Cliente>();
+    private readonly AppDbContext _context;
+
+    public clientesController(AppDbContext context)
+    {
+        _context = context;
+    }
 
     [HttpGet] //GET: api/clientes
-    public IActionResult List()
+    public IActionResult Listar()
     {
+        var clientes = _context.Clientes.ToList();
+
         return Ok(clientes);
     }
 
     [HttpGet("{id}")] //GET : api/clientes/{id}
     public IActionResult BuscarPorId(int id)
     {
-        var cliente = clientes.FirstOrDefault(cliente => cliente.Id == id);
+        var cliente = _context.Clientes.FirstOrDefault(cliente => cliente.Id == id);
 
         if (cliente == null)
         {
