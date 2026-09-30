@@ -52,11 +52,11 @@ public class clientesController : ControllerBase
 
         return Ok(cliente);
     }
-    /*
+    
     [HttpPut("{id}")] //PUT : api/clientes 
     public IActionResult Atualizar(int id, Cliente dados)
     {
-        var cliente = clientes.FirstOrDefault(clientes => clientes.Id == id);
+        var cliente = _context.Clientes.FirstOrDefault(clientes => clientes.Id == id);
 
         if (cliente == null)
         {
@@ -67,22 +67,26 @@ public class clientesController : ControllerBase
         cliente.Email = dados.Email;
         cliente.Telefone = dados.Telefone;
 
+        _context.SaveChanges();
+
         return Ok(cliente);
 
     }
-
+    
     [HttpDelete("{id}")]
     public IActionResult Excluir(int id)
     {
-        var cliente = clientes.FirstOrDefault(c => c.Id == id);
+        var cliente = _context.Clientes.FirstOrDefault(c => c.Id == id);
 
         if (cliente == null)
         {
             return NotFound();
         }
 
-        clientes.Remove(cliente);
+        _context.Clientes.Remove(cliente);
+
+        _context.SaveChanges();
 
         return NoContent();
-    }*/
+    }
 }

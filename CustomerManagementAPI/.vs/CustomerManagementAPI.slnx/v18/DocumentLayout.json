@@ -1,13 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\",
+  "WorkspaceRootPath": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|c:\\users\\wende\\onedrive\\documentos\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|d:\\users\\wende\\workspace\\github\\costumermanagementapi\\customermanagementapi\\src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A09BD94-56E7-05F6-C89C-E6B55C33C6F0}|src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj|solutionrelative:src\\backend\\customermanagement.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,34 +18,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
+              "DocumentMoniker": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
+              "ToolTip": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwFAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T02:18:35.424Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "RelativeToolTip": "src\\backend\\CustomerManagement.API\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T18:13:17.694Z",
               "EditorCaption": ""
             }
           ]

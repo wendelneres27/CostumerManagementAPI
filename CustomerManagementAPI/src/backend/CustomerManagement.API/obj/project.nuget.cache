@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgNmn6r1lwo=",
+  "dgSpecHash": "CaAzzFil3ko=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wende\\OneDrive\\Documentos\\GitHub\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj",
+  "projectFilePath": "D:\\Users\\wende\\Workspace\\Github\\CostumerManagementAPI\\CustomerManagementAPI\\src\\backend\\CustomerManagement.API\\CustomerManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wende\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\wende\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
