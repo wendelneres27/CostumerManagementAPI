@@ -44,6 +44,12 @@ public class clientesController : ControllerBase
 
         clientes.Add(cliente);
         */
+
+        if (cliente.Telefone.Length < 8)
+        {
+            return BadRequest("O telefone informado deve ser válido.");
+        }
+
         cliente.DataCadastro = DateTime.Now;
 
         _context.Clientes.Add(cliente); //Quero adicionar este cliente à tabela Clientes
@@ -66,6 +72,8 @@ public class clientesController : ControllerBase
         cliente.Nome = dados.Nome;
         cliente.Email = dados.Email;
         cliente.Telefone = dados.Telefone;
+        cliente.Cidade = dados.Cidade;
+        cliente.Estado = dados.Estado;
 
         _context.SaveChanges();
 
