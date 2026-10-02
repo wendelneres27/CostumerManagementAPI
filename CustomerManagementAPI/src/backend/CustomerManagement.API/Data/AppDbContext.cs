@@ -12,4 +12,6 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Cliente> Clientes { get; set; } // Existe uma coleção de Clientes que será representada na base de dados
+
+    public DbSet<Etiquetas> Etiquetas { get; set; } // Existe uma coleção de Etiquetas que será representada na base de dados
 }
